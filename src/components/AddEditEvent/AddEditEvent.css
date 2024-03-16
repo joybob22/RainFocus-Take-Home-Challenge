@@ -1,0 +1,64 @@
+.event-form h1 {
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.event-form {
+  background-color: #f4f4f4;
+  padding: 25px 50px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.input-container {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-container > div:first-child {
+  width: 120px;
+}
+
+.input-container input[type="text"] {
+  width: 100%;
+  font-size: 15px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  background-color: transparent;
+  outline: none;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-button,
+.submit-button {
+  border: 1px solid #a0a0a0;
+  color: #a0a0a0;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.cancel-button {
+  border-color: rgba(255, 0, 0, 0.5);
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.cancel-button:hover {
+  border-color: red;
+  color: red;
+}
+
+.submit-button:hover {
+  color: black;
+  border-color: black;
+}

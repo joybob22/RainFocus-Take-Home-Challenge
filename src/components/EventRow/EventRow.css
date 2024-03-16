@@ -1,0 +1,20 @@
+.event-row {
+  display: flex;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  align-items: center;
+  text-align: left;
+  color: black;
+}
+
+.event-row > div {
+  flex: 1;
+}
+
+.event-row > div:last-child {
+  flex: 4;
+  margin-left: 10px;
+}

@@ -1,0 +1,55 @@
+.App {
+  width: 90%;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.app-header > h1 {
+  font-weight: 100;
+}
+
+.add-event-button {
+  background-color: #fff;
+  border: 1px solid #a0a0a0;
+  color: #a0a0a0;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-event-button:hover {
+  color: black;
+  border-color: black;
+}
+
+.event-headers {
+  display: flex;
+  padding: 0 0 5px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  align-items: center;
+  font-style: italic;
+  color: #a0a0a0;
+  text-align: left;
+}
+
+.event-headers > div {
+  flex: 1;
+}
+
+.event-headers > div:last-child {
+  flex: 4;
+  margin-left: 10px;
+}
